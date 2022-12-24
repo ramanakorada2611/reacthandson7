@@ -1,7 +1,7 @@
 // import{Link} from 'react-router-dom'
 let data=[
     {
-      id:0,
+      id:1,
       name:'ramana',
       age:22,
       course:'fsd',
@@ -9,7 +9,7 @@ let data=[
       
       // change:<Link to='/Editpage'>Edit</Link>
     },
-    { id:1,
+    { id:2,
       name:'ramana',
       age:22,
       course:'fsd',
@@ -17,21 +17,21 @@ let data=[
       // change:<Link to='/Editpage'>Edit</Link>
     },
     {
-      id:2,
+      id:3,
       name:'ramana',
       age:22,
       course:'fsd',
       batch:2022,
       // change:<Link to='/Editpage'>Edit</Link>
     },
-    {   id:3,
+    {   id:4,
         name:'ramana',
         age:22,
         course:'fsd',
         batch:2022,
         // change:<Link to='/Editpage'>Edit</Link>
       },
-      { id:4,
+      { id:5,
         name:'ramana',
         age:22,
         course:'fsd',

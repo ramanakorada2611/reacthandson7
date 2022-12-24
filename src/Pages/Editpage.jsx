@@ -6,12 +6,12 @@ function Editpage() {
 
   const {state}=useLocation()
   const editId=state;
-  console.log(editId)
+  // console.log(editId)
 
   const dispatch=useDispatch();
   const navigate=useNavigate();
   const data=useSelector((state)=>state.student.filter((item)=>{return item.id===editId }).map((item)=>item))
-   const sname=(data[0].name);
+  const sname=(data[0].name);
   const sage=(data[0].age);
   const scourse=(data[0].course);
   const sbatch=(data[0].batch);

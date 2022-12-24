@@ -10,9 +10,9 @@ function Appdata (){
   return (
     <>
      {
-        value.map((item,index)=>{
+        value.map((item,key)=>{
           return(
-            <tr key={index}>
+            <tr key={key}>
               <td>{item.name}</td>
               <td>{item.age}</td>
               <td>{item.course}</td>
