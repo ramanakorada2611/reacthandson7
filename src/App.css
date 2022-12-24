@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: linear-gradient(to bottom,pink,white,rgb(182, 239, 220));
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  background-color: palevioletred;
+  font-weight: bold;
+  font-size: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.active-class{
+  text-decoration: none;
+  text-shadow: 3px 3px black;
+  color: rgb(166, 8, 8);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.non-active-class{
+  text-decoration: none;
+  text-shadow: 3px 3px black;
+  color:darkviolet;
+}
+.home{
+  font-weight: bold;
+  padding: 42vh 0;
+}
+.contact{
+  font-weight: bold;
+  padding: 42vh 0;
+}
+.std-btn{
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+table{
+  margin-top: 100px;
+  border-collapse: collapse;
+  background-color: white;
+}
+td{
+  border: 2px solid whitesmoke;
+  color: purple;
+  font-size: large;
+  text-align: center;
+  
+}
+th{
+  border: 2px solid whitesmoke;
+  text-align: center;
+  color: palevioletred;
+  font-size: large;
+}
+.std-head{
+margin-top: 20px;
+}
+.box1{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.box2{
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+.box3{
+  position: absolute;
+  top: 350px;
+  left: 200px;
+}
+.box4{
+  position: absolute;
+  top: 350px;
+  left: 800px;
+}
+.form-btn1{
+  position: absolute;
+  top:400px ;
+  left:650px ;
+}
+.form-btn2{
+  position: absolute;
+  top:400px ;
+  left:480px ;
+}
+.appbutton{
+  color:blue;
+  border: none;
+  background-color: white;
 }
